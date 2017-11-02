@@ -1,6 +1,9 @@
 <?php
-use Alipay\sdk\AlipayTradeService;
-use Alipay\sdk\AlipayTradePagePayContentBuilder;
+
+require_once __DIR__.'./../vendor/autoload.php';
+
+use Alipay\alipaysdk\AlipayTradeService;
+use Alipay\alipaysdk\AlipayTradePagePayContentBuilder;
 
 //商户订单号，商户网站订单系统中唯一订单号，必填
 $out_trade_no = trim($_POST['WIDout_trade_no']);

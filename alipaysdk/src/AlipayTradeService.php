@@ -1,5 +1,5 @@
 <?php
-namespace Alipay\sdk;
+namespace Alipay\alipaysdk;
 
 require_once './AopSdk.php';
 class AlipayTradeService {

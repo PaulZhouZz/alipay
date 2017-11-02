@@ -1,5 +1,5 @@
 <?php
-namespace Alipay\sdk;
+namespace Alipay\alipaysdk;
 /* *
  * 功能：支付宝电脑网站支付(alipay.trade.page.pay)接口业务参数封装
  * 版本：2.0
