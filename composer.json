@@ -1,9 +1,14 @@
 {
     "name": "alipay/alipaysdk",
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.0.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/PaulZhouZz/alipay"
+        }
+    ],
     "autoload":{
         "psr-4": {
             "alipay\\alipaysdk\\":"src/"
