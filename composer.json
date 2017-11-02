@@ -1,5 +1,5 @@
 {
-  "name": "alipay",
+  "name": "paulzhouzz/alipay",
   "version": "1.0.0",
   "request": {
     "php" : ">5.6.30"
